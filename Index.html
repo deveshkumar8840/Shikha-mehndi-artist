@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Shikha Gautam Mehndi Artist</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Sans-Serif;
+}
+
+body{
+background:#fff8f0;
+}
+
+header{
+background:#8B4513;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.hero{
+padding:100px 20px;
+text-align:center;
+color:white;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1519741497674-611481863552?w=1200");
+background-size:cover;
+background-position:center;
+}
+.hero h2{
+font-size:36px;
+margin-bottom:10px;
+}
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:14px 25px;
+border-radius:10px;
+text-decoration:none;
+margin-top:20px;
+font-weight:bold;
+}
+.about{
+background:white;
+padding:30px 20px;
+text-align:center;
+}
+.about img{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #8b4513;
+margin-bottom:15px;
+}
+.about h2{
+color:#8B4513;
+margin-bottom:10px;
+}
+.services {
+  padding:20px;
+}
+.card{
+  background:white;
+  padding:20px;
+  margin-bottom:15px;
+  border-radius:15px;
+  box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+.gallery{
+padding:20px;
+text-align:center;
+}
+.gallery h2{
+margin-bottom:20px;
+}
+.slider{
+position:relative;
+overflow:hidden;
+}
+.slide{
+display:none;
+width:100%;
+border-radius:15px;
+}
+.Instagram{
+display:block;
+width:90%;
+max-width:300px;
+margin:20px auto;
+background:#E1306C;
+color:white;
+padding:15px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+text-align:center;
+}
+.booking{
+  background:white;
+  margin:20px;
+  padding:20px;
+  border-radius:15px;
+}
+.booking h2{
+  text-align:center;
+  margin-bottom:15px;
+}
+.booking input,
+.booking textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+.booking button{
+  width:100%;
+  padding:12px;
+  background:#8B4513;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+}
+.contact{
+  background:white;
+  padding:20px;
+  margin:20px;
+  border-radius:15px;
+  text-align:center;
+}
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:65px;
+  height:65px;
+  background:#25D366;
+  border-radius:50%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:30px;
+  text-decoration:none;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Shikha Gautam Mehndi Artist</h1>
+  <p>Kanpur, Uttar Pradesh</p>
+</header>
+<section class="hero">
+<h2>Beautiful Mehndi For Every Occasion</h2>
+<p>Bridal•Arabic•Traditional•Modern Mehndi</p>
+<a class="btn" href="https://wa.me/916394990178">
+  Book on whatsapp
+</a>
+</section>
+<section class="about">
+  <img src="artist.jpg"
+  alt="Shikha Gautam">
+    <h2> About me</h2>
+ <p>Welcome to Shikha Gautam Mehndi Artist. specialist in Bridal, Arabic,Traditional and Festival Mehndi Designs
+ </p>
+</section>
+
+<section class="services">
+  <div class="card">
+    <h3>Arabic Mehndi</h3>
+    <p>Modern Arabic Patterns</p>
+    
+  </div>
+  
+  <div class="card">
+    <h3>Bridal Mehndi</h3>
+    <p>Premium Wedding Mehndi Designs</p>
+  </div>
+  
+<div class="card">
+    <h3>Festival Mehndi</h3>
+    <p>teej , Karwa Chauth & Eid Mehndi</p>
+  </div>
+</section>
+<section class="gallery">
+  <h2>Our Mehndi Gallery</h2>
+  
+<div class="slider">
+  <img class="slide" 
+  src="Shikha1.jpg">
+  <img class="slide"
+  src="IMG_20260625_191055_005.jpg">
+  <img class="slide"
+  src="IMG_20260625_191055_008.jpg">
+  <img class="slide"
+  src="IMG_20260625_191055_012.jpg">
+</div>
+</section>
+<a class="Instagram"
+href="https://Instagram.com/shikha_1790"> Instagram page</a>
+<section class="booking">
+  <h2>Booking Mehndi</h2>
+  <form id="BookingForm">
+    <input type="text"
+    placeholder="Your name">
+    <input type="tel"
+    placeholder="Mobile Number">
+    <textarea
+    placeholder="Every Details"></textarea>
+    <button type="submit">
+      Book Now
+    </button>
+  </form>
+</section>
+<div class="contact">
+  <h2>contact</h2>
+ <p>
+<a href="tel:6394990178">
+📞 6394990178
+</a>
+</p>
+
+<p>
+<a href="https://instagram.com/shikha_1790">
+Instagram: @shikha_1790
+</a>
+</p>
+  <p>Kanpur, Uttar Pradesh</p>
+</div>
+<a href="https://wa.me/916394990178" class="whatsapp">💬</a>
+<script>
+  let slideIndex = 0;
+  showSlides();
+    function showSlides(){
+      let slides=document.getElementsByClassName("slide");
+      for(let i=0;i<slides.length;i++){
+        slides[i].style.display="none";
+      }
+      slideIndex++;
+      if(slideIndex > slides.length){
+        slideIndex = 1;
+      }
+      slides[slideIndex-1].style.display="block";
+      setTimeout(showSlides,3000);
+    }
+document.getElementById("BookingForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let name=document.querySelector('input[type="text"]').value;
+let phone=document.querySelector('input[type="tel"]').value;
+let details=document.querySelector("textarea").value;
+
+let message=
+`New Mehndi Booking
+
+Name: ${name}
+Phone: ${phone}
+
+Details:
+${details}`;
+
+window.open(
+"https://wa.me/916394990178?text="+encodeURIComponent(message),
+"_blank"
+);
+
+});
+</script>
+<footer style="background:#8B4513;color:white;text-align:center;padding:15px;">
+© 2026 Shikha Gautam Mehndi Artist | All Rights Reserved
+</footer>
+</body>
+</html>
